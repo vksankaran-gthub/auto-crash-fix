@@ -1,0 +1,2 @@
+[console_scripts]
+crash-fix = crash_fix.cli:main

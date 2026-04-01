@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: crash-fix-tool
+Version: 0.1.0
+Summary: Automated crash fix and PR generation from stack trace portal fingerprints
+Requires-Python: >=3.9
+Requires-Dist: click>=8.0
+Requires-Dist: requests>=2.28
+Requires-Dist: pyyaml>=6.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.10; extra == "dev"
+Requires-Dist: responses>=0.23; extra == "dev"
